@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import AboutMe from './Pages/Aboutme/AboutMe.tsx';
 import Home from './Pages/Home/Home.tsx';
-
 import Projects from './Pages/Projects/Projects.tsx';
 import SKill from './Pages/SKills/SKill.tsx';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
@@ -16,6 +15,10 @@ const router = createBrowserRouter([
 		path: '/',
 		element: <App />,
 		children: [
+			{
+				path: '/',
+				element:<Home/>
+		},
 			{
 				path: '/about',
 				element: <AboutMe />,
