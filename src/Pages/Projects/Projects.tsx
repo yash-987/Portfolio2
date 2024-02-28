@@ -1,21 +1,18 @@
-
 import Card from '../../Components/CardComponent/Card';
 import Button from '../../Components/Button/Button';
 
 // import Footer from '../../Components/Footer/Footer';
 
 function Projects() {
-
-
 	return (
-		<div className="h-screen my-2 mt-3">
-			<h1 className="text-4xl font-mono  pt-8">Projects</h1>
+		<div className=" sm:pb-4 sm:my-2 sm:mt-3">
+			<h1 className="text-4xl font-mono pl-10 pt-8">Projects</h1>
 
 			<div>
-				<p className="mt-12 flex items-start pl-20">
+				<p className=" mt-4 pl-28 sm:mt-12  flex items-start sm:pl-20">
 					Browse My Recent Projects
 				</p>
-				<div className="flex gap-3 mt-6">
+				<div className="flex flex-col pl-10 sm:flex-row sm:gap-3 sm:mt-6">
 					<Card
 						img="https://via.placeholder.com/150"
 						classname="py-4"

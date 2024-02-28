@@ -30,8 +30,8 @@ function Header() {
 	];
 
 	return (
-		<header className="w-full py-2 ">
-			<nav className="flex justify-around items-baseline">
+		<header className="sm:w-full  border-b-1 rounded-lg border-black sm:border-none sm:shadow-none shadow-black shadow-sm w-screen py-2 ">
+			<nav className="flex justify-around items-center sm:items-baseline ">
 				<div className="text-5xl  sm:mr-20  sm:text-4xl font-semibold">Yash</div>
 				<div className=''>
 					<select className='  text-xl w-20 sm:hidden ' name="" id="">

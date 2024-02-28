@@ -1,4 +1,3 @@
-
 interface Props {
 	children: React.ReactNode;
 	img: string;
@@ -11,7 +10,7 @@ function Card(props: Props) {
 
 	return (
 		<div
-			className={` w-72 rounded-xl mx-auto flex flex-col h-[24rem] items-center shadow-xl z-10 ${classname}  `}
+			className={` rounded-xl mx-auto flex flex-col h-[24rem] items-center shadow-xl z-10 ${classname}  `}
 		>
 			<div className=" h-[16rem] mt-4 w-[14rem]  rounded-lg flex items-center justify-center">
 				<img className=" rounded-lg h-full " src={img} alt="" />

@@ -5,7 +5,7 @@ function Footer() {
 
 
 	return (
-		<div className="bg-black rounded-lg text-white shadow-gray-300 pb-2 shadow-xl flex justify-around items-center">
+		<div className="  bg-black rounded-lg text-white shadow-gray-300 pb-2 shadow-xl flex justify-around items-center">
 			<div>
 				<h1 className="text-xl font-[cursive]">Let's Connect</h1>
 			</div>
