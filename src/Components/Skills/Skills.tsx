@@ -1,9 +1,9 @@
-import React from 'react';
 
-interface Props {}
 
-function Skills(props: Props) {
-	const {} = props;
+
+
+function Skills() {
+	
 
 	return (
 		<div className=" h-[41rem]  rounded-xl mt-10  pt-28 text-xl ">

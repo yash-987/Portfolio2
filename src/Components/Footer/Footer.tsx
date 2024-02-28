@@ -1,9 +1,8 @@
-import React from 'react';
 
-interface Props {}
 
-function Footer(props: Props) {
-	const {} = props;
+
+function Footer() {
+
 
 	return (
 		<div className="bg-black rounded-lg text-white shadow-gray-300 pb-2 shadow-xl flex justify-around items-center">

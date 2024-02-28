@@ -1,13 +1,11 @@
-import React, { Children } from 'react';
+
 import Card from '../../Components/CardComponent/Card';
 import Button from '../../Components/Button/Button';
-import { DiVim } from 'react-icons/di';
+
 // import Footer from '../../Components/Footer/Footer';
 
-interface Props {}
+function Projects() {
 
-function Projects(props: Props) {
-	const {} = props;
 
 	return (
 		<div className="h-screen my-2 mt-3">
