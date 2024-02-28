@@ -6,6 +6,7 @@ function About(props: Props) {
 	const {} = props;
 
 	return (
+		
 		<div className="flex flex-col  rounded-xl z-10 h-screen">
 			<div className="flex flex-col items-start mt-40 ml-8 gap-3 ">
 				<h1 className="text-5xl">About me </h1>

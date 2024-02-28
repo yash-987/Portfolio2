@@ -22,6 +22,7 @@ function Footer(props: Props) {
 				<p> Github Icon</p>
 				<p>LinkedIn Icon</p>
 				<p>Instagram Icon</p>
+				<p>Repo Added</p>
 			</div>
 		</div>
 	);
