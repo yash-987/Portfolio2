@@ -5,12 +5,12 @@ import Button from '../../Components/Button/Button';
 
 function Projects() {
 	return (
-		<div className=" sm:pb-4 sm:my-2 sm:mt-3">
+		<div className=" mt-36 sm:pb-4 sm:my-2 sm:mt-3">
 			<h1 className="text-4xl font-mono pl-10 pt-8">Projects</h1>
 
 			<div>
 				<p className=" mt-4 pl-28 sm:mt-12  flex items-start sm:pl-20">
-					Browse My Recent Projects
+					Browse My Recent Projects (kya matlab ek bhi project nhi banaya abhi tak )
 				</p>
 				<div className="flex flex-col pl-10 sm:flex-row sm:gap-3 sm:mt-6">
 					<Card

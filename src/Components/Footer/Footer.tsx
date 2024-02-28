@@ -1,11 +1,6 @@
-
-
-
 function Footer() {
-
-
 	return (
-		<div className="  bg-black rounded-lg text-white shadow-gray-300 pb-2 shadow-xl flex justify-around items-center">
+		<div className="h-52 mt-3 sm:mt-0 sm:h-full bg-gray-600 sm:bg-black rounded-lg text-white shadow-gray-300 sm:pb-2 shadow-xl flex flex-col justify-center sm:flex-row sm:justify-around items-center">
 			<div>
 				<h1 className="text-xl font-[cursive]">Let's Connect</h1>
 			</div>
@@ -14,10 +9,10 @@ function Footer() {
 				<input
 					type="text"
 					className="px-2 py-1 border-2 border-gray-600 rounded-lg  "
-					placeholder="example@gmail.com"
+					placeholder="KYU hila dala na?"
 				/>
 			</div>
-			<div className="flex gap-2">
+			<div className="flex sm:gap-2 sm:mt-0 mt-4">
 				<p> Github Icon</p>
 				<p>LinkedIn Icon</p>
 				<p>Instagram Icon</p>
