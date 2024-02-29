@@ -1,13 +1,7 @@
-
-import Footer from '../../Components/Footer/Footer'
-
+import Footer from '../../Components/Footer/Footer';
 
 function Contact() {
-
-
-    return (
-        <Footer/>
-    )
+	return <div className="mt-52">{<Footer /> ? null : <Footer />}</div>;
 }
 
-export default Contact
+export default Contact;

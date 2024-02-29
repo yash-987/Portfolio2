@@ -13,7 +13,7 @@ function Footer() {
 				/>
 			</div>
 			<div className="flex sm:gap-2 sm:mt-0 mt-4">
-				<p> Github Icon</p>
+				<p>Github Icon</p>
 				<p>LinkedIn Icon</p>
 				<p>Instagram Icon</p>
 				<p>Repo Added</p>
