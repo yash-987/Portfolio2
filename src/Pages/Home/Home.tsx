@@ -1,4 +1,3 @@
-
 import Intro from '../../Components/Intro/Intro';
 import About from '../../Components/About/About';
 import Skills from '../../Components/Skills/Skills';
@@ -17,8 +16,9 @@ function Home() {
 				<Skills />
 			</div>
 			<div>
-				<Projects />
-			</div>
+				
+			<Projects />
+			  </div>
 		</div>
 	);
 }

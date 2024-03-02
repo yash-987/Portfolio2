@@ -6,7 +6,7 @@ interface Props {
 }
 
 function Button(props: Props) {
-	const { children, classname = '', type } = props;
+	const { children, classname, type } = props;
 
 	return (
 		<button

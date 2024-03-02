@@ -6,12 +6,13 @@ import { Outlet } from 'react-router-dom';
 function App() {
 	return (
 		<>
-			<div>
+			<div className="w-screen sm:w-full">
 				<Header />
 			</div>
 			<Outlet />
-			<div>
-				 <Footer/>
+			<div className="w-screen sm:w-full">
+				{' '}
+				<Footer />
 			</div>
 		</>
 	);

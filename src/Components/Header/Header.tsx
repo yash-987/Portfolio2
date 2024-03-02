@@ -34,7 +34,7 @@ function Header() {
 	];
 
 	return (
-		<header className="sm:w-full  border-b-1 rounded-lg border-black sm:border-none sm:shadow-lg bg-slate-500  sm:shadow-white  shadow-black shadow-sm w-screen sm:h-16 sm:mb-2 py-2 ">
+		<header className="sm:w-full   border-b-1 rounded-lg border-black sm:border-none sm:shadow-lg bg-slate-500  sm:shadow-white  shadow-black shadow-sm w-11/12 sm:h-16 sm:mb-2 py-2 ">
 			<nav className="flex justify-around items-center sm:items-baseline ">
 				<div className="text-5xl mr-8 sm:mr-20  sm:text-4xl font-semibold">
 					Yash

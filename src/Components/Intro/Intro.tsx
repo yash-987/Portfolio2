@@ -6,7 +6,7 @@ function Intro() {
 				<div className="w-40   bg-blue-300 h-40 rounded-full mx-auto sm:mx flex justify-center items-center">
 					<h1>Img aaegi bro isme </h1>
 				</div>
-				<div className=" flex flex-col items-center sm:items-start justify-center space-y-1  ">
+				<div className=" flex flex-col items-center sm:items-start space-y-1 sm:mr-2  ">
 					<p className="text-3xl">Hello, I'm</p>
 					<h1 className="w-max text-7xl font-bold font-[cursive]  text-center ">
 						Yash
