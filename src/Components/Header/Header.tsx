@@ -1,7 +1,11 @@
+import { useState } from 'react';
 
+import { CgMenu } from 'react-icons/cg';
+import { RxCross1 } from 'react-icons/rx';
 import { useNavigate } from 'react-router-dom';
 
 function Header() {
+	const [Open, setOpen] = useState(false);
 	const navigate = useNavigate();
 
 	const navItems = [
@@ -30,24 +34,77 @@ function Header() {
 	];
 
 	return (
-		<header className="sm:w-full  border-b-1 rounded-lg border-black sm:border-none sm:shadow-none shadow-black shadow-sm w-screen  py-2   ">
+		<header className="sm:w-full  border-b-1 rounded-lg border-black sm:border-none sm:shadow-lg bg-slate-500  sm:shadow-white  shadow-black shadow-sm w-screen sm:h-16 sm:mb-2 py-2 ">
 			<nav className="flex justify-around items-center sm:items-baseline ">
-				<div className="text-5xl mr-8 sm:mr-20  sm:text-4xl font-semibold">Yash</div>
-				<div className=''>
-					<select className='  text-xl w-20 sm:hidden ' name="" id="">
-						{navItems.map(item => (
-							<option className='cursor-pointer'  key={item.name} value="">{item.name}</option>
-						))}
-					</select>
+				<div className="text-5xl mr-8 sm:mr-20  sm:text-4xl font-semibold">
+					Yash
+				</div>
 
-					<ul className="hidden sm:flex gap-7 text-xl text-gray-700 font-sans  ">
+				<div className="">
+					<div className="sm:hidden">
+						<button onClick={() => setOpen(!Open)}>
+							{Open ? (
+								<RxCross1 className="text-3xl text-white" />
+							) : (
+								<CgMenu className="text-3xl text-white" />
+							)}
+						</button>
+						{/* <ul className={`gap-7 text-xl ${Open?'visible':'hidden'}`}>
 						{navItems.map((item) => (
 							<li
-								className="sm:hover:text-black hover:border-b-2 border-blue-800"
+								className="text-white hover:border-b-2 border-white"
 								key={item.name}
 							>
 								<button
-									className="cursor-pointer  "
+									className=" "
+									onClick={() => {
+										navigate(item.url);
+									}}
+								>
+									{item.name}
+								</button>
+							</li>
+						))}
+					</ul> */}
+						{Open ? (
+							<ul>
+								{navItems.map((item) => (
+									<li
+										className="text-white hover:border-b-2 border-white"
+										key={item.name}
+									>
+										<button
+											className=" "
+											onClick={() => {
+												navigate(item.url);
+											}}
+										>
+											{item.name}
+										</button>
+									</li>
+								))}
+							</ul>
+						) : (
+							''
+						)}
+					</div>
+
+					{/* <select className="  text-xl w-20 sm:hidden " name="" id="">
+						{navItems.map((item) => (
+							<option className="cursor-pointer" key={item.name} value="">
+								{item.name}
+							</option>
+						))}
+					</select> */}
+
+					<ul className="hidden sm:flex gap-7 text-xl  sm:visible ">
+						{navItems.map((item) => (
+							<li
+								className="text-white hover:border-b-2 border-white"
+								key={item.name}
+							>
+								<button
+									className=" "
 									onClick={() => {
 										navigate(item.url);
 									}}

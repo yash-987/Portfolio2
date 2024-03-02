@@ -1,6 +1,6 @@
 function Skills() {
 	return (
-		<div className=" mt-40  sm:h-[41rem]  rounded-xl sm:mt-10  sm:pt-28 sm:text-xl ">
+		<div className=" mt-40 border=white sm:border-2 sm:shadow-lg sm:shadow-white sm:h-[41rem]  rounded-xl sm:mt-10  sm:pt-28 sm:text-xl ">
 			<div className="flex flex-col gap-2 space-x-2 items-center sm:items-start sm:mx-8 sm:gap-5">
 				<h1 className=" text-xl  sm:text-4xl font-semibold">Skills</h1>
 				<ul className="flex gap-2 sm:gap-4 items-baseline sm:text-2xl  ">

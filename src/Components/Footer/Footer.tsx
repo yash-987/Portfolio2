@@ -8,7 +8,7 @@ function Footer() {
 				<p className="text-lg ">Contact Me </p>
 				<input
 					type="text"
-					className="px-2 py-1 border-2 border-gray-600 rounded-lg  "
+					className="px-2 py-1 border-2 border-gray-600 rounded-lg text-black "
 					placeholder="KYU hila dala na?"
 				/>
 			</div>
