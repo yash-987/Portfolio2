@@ -3,17 +3,19 @@ interface Props {
 	img: string;
 	classname?: string;
 	button: React.ReactNode;
+
+	alt: string;
 }
 
 function Card(props: Props) {
-	const { img, classname, children, button } = props;
+	const { img, classname, children, button,alt } = props;
 
 	return (
 		<div
 			className={` rounded-xl mx-auto blur-sm flex flex-col h-[24rem] items-center  shadow-xl px-2 bg-white ${classname}  `}
 		>
 			<div className=" h-[16rem] mt-4 w-[14rem]  rounded-lg flex items-center justify-center">
-				<img className=" rounded-lg h-full  " src={img} alt="" />
+				<img className=" rounded-lg h-full  " src={img} alt={alt} />
 			</div>
 			<p className="text-lg my-2">{children}</p>
 			{button && <div>{button}</div>}
