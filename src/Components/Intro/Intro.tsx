@@ -6,7 +6,7 @@ function Intro() {
 				<div className="w-40   bg-blue-300 h-40 rounded-full mx-auto sm:mx flex justify-center items-center">
 					<h1>Img aaegi bro isme </h1>
 				</div>
-				<div className=" flex flex-col items-center sm:items-start space-y-1 sm:mr-2  ">
+				<div className=" flex flex-col items-center sm:items-start space-y-2 sm:mr-2  ">
 					<p className="text-3xl">Hello, I'm</p>
 					<h1 className="w-max text-7xl font-bold font-[cursive]  text-center ">
 						Yash
@@ -15,8 +15,8 @@ function Intro() {
 						Frontend developer
 					</h2>
 
-					<div className="pt-4 sm:pt-4">
-						<Link to="/contact" className="bg-black py-2 px-4 rounded-full">
+					<div className="pt-4  ">
+						<Link to="/contact" className="bg-black  py-2 px-4 rounded-full">
 							Contact Me
 						</Link>
 					</div>

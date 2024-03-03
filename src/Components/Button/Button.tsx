@@ -3,6 +3,7 @@ interface Props {
 	children: React.ReactNode;
 	classname: string;
 	type: 'button' | 'submit' | 'reset' | undefined;
+
 }
 
 function Button(props: Props) {

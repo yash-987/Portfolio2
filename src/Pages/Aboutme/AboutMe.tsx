@@ -1,12 +1,7 @@
-
-import About from '../../Components/About/About'
-
+import About from '../../Components/About/About';
 
 function AboutMe() {
-    
-    return (
-        <About/>
-    )
+	return <About />;
 }
 
-export default AboutMe
+export default AboutMe;

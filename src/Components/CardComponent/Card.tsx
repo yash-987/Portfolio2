@@ -10,10 +10,10 @@ function Card(props: Props) {
 
 	return (
 		<div
-			className={` rounded-xl mx-auto flex flex-col h-[24rem] items-center shadow-xl z-10 ${classname}  `}
+			className={` rounded-xl mx-auto blur-sm flex flex-col h-[24rem] items-center  shadow-xl px-2 bg-white ${classname}  `}
 		>
 			<div className=" h-[16rem] mt-4 w-[14rem]  rounded-lg flex items-center justify-center">
-				<img className=" rounded-lg h-full " src={img} alt="" />
+				<img className=" rounded-lg h-full  " src={img} alt="" />
 			</div>
 			<p className="text-lg my-2">{children}</p>
 			{button && <div>{button}</div>}

@@ -16,7 +16,7 @@ function Projects() {
 				<div className="flex flex-col pl-10 sm:flex-row sm:gap-3 sm:mt-6">
 					<Card
 						img="https://imgs.search.brave.com/OS7SmsIdX9rZo0hDWEZcGG97YfOqaH-Ua1CMRwtfEek/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZhLzEw/LzMxL2ZhMTAzMWY5/ZjRlYzY3YmQ3NGRl/MjY4NzI2MzU2ZThk/LmpwZw"
-						classname="py-4"
+						classname="py-4 "
 						button={
 							<div className="flex gap-4">
 								<Button type="submit" classname="bg-gray-600 px-3">
@@ -32,7 +32,7 @@ function Projects() {
 					</Card>
 
 					<Card
-						img="https://via.placeholder.com/150"
+						img="https://imgs.search.brave.com/OS7SmsIdX9rZo0hDWEZcGG97YfOqaH-Ua1CMRwtfEek/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZhLzEw/LzMxL2ZhMTAzMWY5/ZjRlYzY3YmQ3NGRl/MjY4NzI2MzU2ZThk/LmpwZw"
 						classname="py-4"
 						button={
 							<div className="flex gap-4">
@@ -49,7 +49,7 @@ function Projects() {
 					</Card>
 
 					<Card
-						img="https://via.placeholder.com/150"
+						img="https://imgs.search.brave.com/OS7SmsIdX9rZo0hDWEZcGG97YfOqaH-Ua1CMRwtfEek/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZhLzEw/LzMxL2ZhMTAzMWY5/ZjRlYzY3YmQ3NGRl/MjY4NzI2MzU2ZThk/LmpwZw"
 						classname="py-4"
 						button={
 							<div className="flex gap-4">
